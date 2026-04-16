@@ -1,0 +1,15 @@
+Strategy Design Pattern
+	- It allows us to define a family of business rules/algorithms, encapsulate each one and make interchangeable at runtime.
+	
+	- Example
+		Claim Settlement System - claim will be settled depending on the type of claim.
+			1. Cashless claim 
+			2. Reimbursement claim   
+			
+	- Advantage
+		1. Plug-and-play rules: Easily add new settlement strategies (e.g., corporate insurance, co-pay models).
+		2. Scalability: Different insurers or products can reuse the same framework with their own strategies.
+		
+				
+	
+	
