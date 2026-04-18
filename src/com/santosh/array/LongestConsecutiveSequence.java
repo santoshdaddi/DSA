@@ -28,6 +28,9 @@ public class LongestConsecutiveSequence {
 	// 6. otherwise reset count=1 and start=a[i]
 	// 7. if count > result then reassign result=count and bestStart=start
 	// 8. print consecutive elements using result.
+	
+	// T(C) -> O( n log n)
+	// S(C) -> O(1)
 	static void longestConsecutiveSeq(int[] array) {
         int n = array.length;
         if (n <= 0) {
