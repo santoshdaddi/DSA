@@ -10,6 +10,9 @@ Strategy Design Pattern
 		1. Plug-and-play rules: Easily add new settlement strategies (e.g., corporate insurance, co-pay models).
 		2. Scalability: Different insurers or products can reuse the same framework with their own strategies.
 		
+	- Trade off
+		1. Increased Number of Classes: Each strategy requires its own class, which can lead to class explosion if not managed well.
+		2. Client Awareness: The client (or context) must know which strategy to use. If strategy selection logic is complex, you may need an additional factory or configuration mechanism. 
 				
 	
 	
