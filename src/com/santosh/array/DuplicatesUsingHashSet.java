@@ -2,6 +2,7 @@ package com.santosh.array;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -22,7 +23,7 @@ public class DuplicatesUsingHashSet {
 	// S(C) -> O(n)
 	static List<Integer> duplicateElements(int[] array){
 		List<Integer> duplicates = new ArrayList<>();
-		Set<Integer> set = new HashSet<>();
+		Set<Integer> set = new LinkedHashSet<>();
 		
 		for(Integer number : array) {
 			if(set.contains(number)) {

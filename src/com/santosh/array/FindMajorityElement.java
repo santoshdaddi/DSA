@@ -19,6 +19,9 @@ public class FindMajorityElement {
 	// use 2 loops and compare elements.
 	// if values are same then increment counter
 	// if count > (n/2) then return i'th element
+	
+	// T(C) -> O(n ^ 2)
+	// S(C) -> O(1)
 	static int majorityElement(int[] array) {
 		
 		if(array == null || array.length < 0) {

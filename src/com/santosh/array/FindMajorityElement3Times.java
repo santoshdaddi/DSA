@@ -21,7 +21,7 @@ public class FindMajorityElement3Times {
 	// compare elements at i'th and j'th location. if both are same then increment counter 
 	// in the same loop check count > n/3. if yes then add element to list. before adding check for existence .
 	// if you found 2 majority elements then break the loop 
-	// T(C) -> O()n ^ 2
+	// T(C) -> O(n ^ 2)
 	// S(C) -> O(1)
 	static List<Integer> majorityElementByThreeTimes(int [] array){
 		if(array == null || array.length < 0) {
