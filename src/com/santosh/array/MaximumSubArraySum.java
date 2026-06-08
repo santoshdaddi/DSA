@@ -42,21 +42,21 @@ public class MaximumSubArraySum {
 	
 	// loop over the array 
 	// find maximum sum of all subarray ending that element 
-	// max will be the result
-	// sum = array[0]; maxLength = array[0]
+	// maxSum will be the result
+	// sum = array[0]; maxSum = array[0]
 	// T(C) -> O(n)
 	// S(C) -> O(1)
 	private static int findMaxSubArrayLength(int[] array) {
 		int sum =0;
-		int maxLength = 0;
+		int maxSum = 0;
 		
 		for(int i=0 ; i < array.length; i++) {
 			sum = Math.max(sum + array[i], array[i]);
 			
-			maxLength = Math.max(maxLength, sum);
+			maxSum = Math.max(maxSum, sum);
 		}
 		
-		return maxLength;
+		return maxSum;
 		
 	}
 	

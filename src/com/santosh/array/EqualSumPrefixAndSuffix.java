@@ -21,7 +21,7 @@ public class EqualSumPrefixAndSuffix {
 	}
 	
 	
-	// use 3 loops. initialise sum1 and sum2 to 0
+	// use 3 loops. initialize sum1 and sum2 to 0
 	// outer loop from 0 to N.
 	// inner loop from 0 to i and calculate sum (sum1) till j'th element  
 	// inner loop from i+1 to N and calculate sum (sum2) till k'th element
