@@ -1,0 +1,3 @@
+This pattern allows us to create only 1 object. 
+Whenever we need to create only one instance of any class then we can utilize this pattern.
+The created object will be shared to threads whenever requested.

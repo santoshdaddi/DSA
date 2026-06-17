@@ -55,7 +55,7 @@ public class FindMajorityElement {
 	// candidate= -1 and count=0
 	// if count=0 then candidate = number and reset the count to 1
 	// check candidate == number then increment count otherwise decrement count
-	// count the occurrences of candidate in array if it is more than n/2 then return that candidiate
+	// count the occurrences of candidate in array if it is more than n/2 then return that candidate
 	// otherwise return -1
 	
 	// T(C) -> O(n)

@@ -1,0 +1,11 @@
+- This pattern is used when objects behaviour changes based on its internal state.
+- instead of writing if-else or switch statements we can encapsulate each state into its own class.
+- This makes code cleaner and easier to maintain.  
+- Example
+
+	In claim management system, Claim object can be at different states. Each state has different behaviour.
+		- Submitted
+		- Under Review
+		- Approved
+		- Rejected
+		

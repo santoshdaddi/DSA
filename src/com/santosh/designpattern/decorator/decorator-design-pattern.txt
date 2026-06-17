@@ -1,0 +1,7 @@
+- When you want to add responsibilities or features to an object dynamically without modifying its original class.
+- Using this pattern we can do flexible, pluggable enhancements.
+- Example
+	Claim management system ClaimProcessor does all claim handling related things. If we want extra behaviour like Audit logging or sending notifications 
+	then we can use decorator pattern to achieve this.
+	
+	

@@ -32,10 +32,21 @@ public class OddEvenNumberPrinting {
 		
 		ExecutorService executorService = Executors.newFixedThreadPool(2);
 		
+		// calling via submit method
 		executorService.submit( () -> {
 			try {
 				numberPrinting.printOdd();
 			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		});
+		
+		// calling via execute method
+		executorService.execute( () -> {
+			try {
+				numberPrinting.printOdd();
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		});
